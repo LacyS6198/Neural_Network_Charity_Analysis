@@ -8,7 +8,7 @@ The data was reprocessed before having machine learning applied. After the data 
 ## Data Preprocessing
  - **Variable(s) considered to be targets of model:**  IS_SUCCESSFUL
  - **Variable(s) considered to be features of model:**  APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT 
- - **Variable(s) considered to be neither targets nor featuers of model: ** EIN, NAME (these values were dropped from the dataframe)
+ - **Variable(s) considered to be neither targets nor featuers of model:** EIN, NAME (these values were dropped from the dataframe)
 
 ## Compiling, Training, and Evaluating the Model
 
