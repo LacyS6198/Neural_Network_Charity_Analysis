@@ -44,5 +44,9 @@ The below describes the data preprocessing that was applied to the data as well 
      ![6](https://user-images.githubusercontent.com/93630042/160306316-48a5efe8-a6ff-4212-92ed-93bbb65e88e6.png)
 
 # Summary
+Overall, I was not able to acheive the desired accuracy of at least 75%. The initial attempt resulted in an accracy of 70.29%. Subsequent optimization attempts were able to ultimately lead to 72.38% accuracy but still failed to meet the 75% goal.
 
+Recommendations of models or techniques to try:
+ - Different categorization of the ASK_AMT field - this field had a lot of various values. Better categorization of the values may improve the model accuracy. The current categorization when coupled wtih the LeakyRelu function resulted in a 72.31% accuracy. Refinement of the categories may be enough to improve to 75%.
+ - After modifying the ASK_AMT classification, the model may need to have the number of hidden layers and neurons adjusted to acheive the 75% accuracy. The third optimization attempt was close so by recategorizing the ASK_AMT field and modifying the model slightly, optimum accuracy may be acheivable. 
 
