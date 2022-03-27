@@ -40,7 +40,9 @@ The below describes the data preprocessing that was applied to the data as well 
      <br>
      Finally, I attempt to categorize the ASK_AMT field then applied the three hidden layer LeakyRelu model. This acheived an accuracy of 72.38%.
      ![5](https://user-images.githubusercontent.com/93630042/160306263-a3b47876-b585-4abe-b3f8-e5c6bc57285d.png)
-
-
+     
+     ![6](https://user-images.githubusercontent.com/93630042/160306316-48a5efe8-a6ff-4212-92ed-93bbb65e88e6.png)
 
 # Summary
+
+
