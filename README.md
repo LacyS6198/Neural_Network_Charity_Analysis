@@ -14,9 +14,21 @@ The below describes the data preprocessing that was applied to the data as well 
 
 ## Compiling, Training, and Evaluating the Model
 
+ - The first model had two hidden layers. One layer had 80 neurons, the other layer had 30. ReLu was applied to the first and second hidden layer. Sigmoid was apllied to the outpt layer. This model's accuracy was 70.29%.
 
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
-Were you able to achieve the target model performance?
+ - I was not able to acheive accuracy of 75% in either the first model, nor the three subseqent optimization attempts. 
+
+ - The following steps were taken to attempt to increase model performance
+   - Increase hidden layers from 2 to 3
+     I added a third hidden layer that used 15 neurons. I used the Relu and Sigmoid functions as was done in the original model. This only acheived accuracy of 72.77%.
+     <br>
+   - Use LeakyRelu instead of Relu and Sigmoid
+     For my second optimization attempt, I used the same third hidden layer as noted above but then changed the Relu and Sigmoid functions to LeakyRelu (for both the hidden and outpt layers). This model acheived an accuracy of 72.31%.
+     <br>
+   - Categorize the ASK_AMT field then apply LeakyRelu model with three hidden layers
+     Finally, I attempt to categorize the ASK_AMT field then applied the three hidden layer LeakyRelu model. This acheived an accuracy of 72.38%.
+
+
 What steps did you take to try and increase model performance?
 
 ## Compiling, Training, and Evaluating the Model
