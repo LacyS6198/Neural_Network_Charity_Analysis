@@ -19,15 +19,15 @@ The below describes the data preprocessing that was applied to the data as well 
  - I was not able to acheive accuracy of 75% in either the first model, nor the three subseqent optimization attempts. 
 
  - The following steps were taken to attempt to increase model performance
-   - Increase hidden layers from 2 to 3
+   - **Increase hidden layers from 2 to 3**
      <br>
      I added a third hidden layer that used 15 neurons. I used the Relu and Sigmoid functions as was done in the original model. This only acheived accuracy of 72.77%.
      <br><br>
-   - Use LeakyRelu instead of Relu and Sigmoid
+   - **Use LeakyRelu instead of Relu and Sigmoid**
      <br>
      For my second optimization attempt, I used the same third hidden layer as noted above but then changed the Relu and Sigmoid functions to LeakyRelu (for both the hidden and outpt layers). This model acheived an accuracy of 72.31%.
      <br><br>
-   - Categorize the ASK_AMT field then apply LeakyRelu model with three hidden layers
+   - **Categorize the ASK_AMT field then apply LeakyRelu model with three hidden layers**
      <br>
      Finally, I attempt to categorize the ASK_AMT field then applied the three hidden layer LeakyRelu model. This acheived an accuracy of 72.38%.
 
