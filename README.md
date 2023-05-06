@@ -14,14 +14,14 @@ The below describes the data preprocessing that was applied to the data as well 
 
 ## Compiling, Training, and Evaluating the Model
 
- - The first model had two hidden layers. One layer had 80 neurons, the other layer had 30. ReLu was applied to the first and second hidden layer. Sigmoid was apllied to the outpt layer. This model's accuracy was 70.29%.
+ - The first model had two hidden layers. One layer had 80 neurons, the other layer had 30. ReLu was applied to the first and second hidden layer. Sigmoid was applied to the output layer. This model's accuracy was 70.29%.
  
  ![1](https://user-images.githubusercontent.com/93630042/160306238-de16c376-813f-4492-8b5a-603498c2cee0.png)
 
 ![2](https://user-images.githubusercontent.com/93630042/160306244-8b0ff354-51bf-4fcd-9363-6f51250488ee.png)
 
 
- - I was not able to acheive accuracy of 75% in either the first model, nor the three subseqent optimization attempts. 
+ - I was not able to acheive accuracy of 75% in either the first model, nor the three subsequent optimization attempts. 
 
  - The following steps were taken to attempt to increase model performance
    - **Increase hidden layers from 2 to 3**
